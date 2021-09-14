@@ -1,0 +1,96 @@
+h1 {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+    font-size: 3.5em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    background-color:aqua;
+
+}
+
+a:hover {
+    background-color: yellow;
+  }
+
+a {
+    color: blueviolet;
+  }
+  
+
+body {
+    background-color: lightgrey;
+}
+
+.webpage-bottom {
+}
+
+.nav-wrapper {
+    display:flex;
+    justify-content: space-between;
+    background-color: pink;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    font-weight: bold;
+    max-height: 64px;
+    min-height: 64px;
+
+}
+
+.nav-section {
+    display: flex;
+    margin-left: auto; 
+    margin-right: auto;
+    white-space: nowrap;
+}
+
+.nav-wrapper > .nav-section > div {
+    display: flex;
+    font-size: 3em;
+    width: 50%;
+    text-align: center;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 0 20px 0 20px; 
+}
+
+.hometext {
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    font-size: 2em;
+}
+
+.whyaretheycooltext {
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    font-size: 2em;
+}
+
+.howtobecomerhinotext {
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    font-size: 2em;
+}
+
+hr {
+    color: coral;
+    height: 5px;
+}
+
+span.Why {
+    color: crimson;
+}
+
+span.Love {
+    color: hotpink;
+}
+
+span.transformation {
+    color: green;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: ivory;
+    }
+  }
