@@ -14,11 +14,11 @@ h1 {
 }
 
 a:hover {
-    background-color: yellow;
+    background-color: rgb(183, 157, 255);
   }
 
 a {
-    color: blueviolet;
+    color: rgb(160, 58, 255);
   }
   
 
@@ -33,7 +33,7 @@ body {
     display:flex;
     justify-content: space-between;
     background-color: pink;
-    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    font-family: 'Times New', 'Chalkboard SE', 'Comic Neue', sans-serif;
     font-weight: bold;
     max-height: 64px;
     min-height: 64px;
