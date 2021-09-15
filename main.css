@@ -9,21 +9,21 @@ h1 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-    background-color:rgb(255, 255, 255);
+    background-color: darkgreen;
 
 }
 
 a:hover {
-    background-color: rgb(183, 157, 255);
+    background-color: greenyellow;
   }
 
 a {
-    color: rgb(160, 58, 255);
+    color: limegreen;
   }
   
 
 body {
-    background-color: lightgrey;
+    background-color: lightgreen;
 }
 
 .webpage-bottom {
@@ -31,12 +31,6 @@ body {
 
 .nav-wrapper {
     display:flex;
-    justify-content: space-between;
-    background-color: pink;
-    font-family: 'Times New', 'Chalkboard SE', 'Comic Neue', sans-serif;
-    font-weight: bold;
-    max-height: 64px;
-    min-height: 64px;
 
 }
 
@@ -55,21 +49,6 @@ body {
     margin-left: auto; 
     margin-right: auto;
     padding: 0 20px 0 20px; 
-}
-
-.hometext {
-    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
-    font-size: 2em;
-}
-
-.whyaretheycooltext {
-    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
-    font-size: 2em;
-}
-
-.howtobecomerhinotext {
-    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
-    font-size: 2em;
 }
 
 hr {
@@ -91,6 +70,6 @@ span.transformation {
 
 @media only screen and (max-width: 600px) {
     body {
-      background-color: ivory;
+      background-color: darkgreen;
     }
   }
